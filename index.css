@@ -318,8 +318,9 @@ section div.katsina_central ul {
   margin: 40px auto;
 }
 section div.katsina_central ul li {
-  font-size: 1.1em;
-  line-height: 30px;
+  font-size: 1.5em;
+  line-height: 35px;
+  padding-bottom: 20px;
 }
 section div.katsina_central h1 {
   font-family: "Josefin Sans", sans-serif;
