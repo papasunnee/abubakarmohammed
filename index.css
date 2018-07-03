@@ -174,7 +174,7 @@ header.main::after {
   width: 400px;
   height: 500px;
   right: 2px;
-  top: 300px;
+  top: 200px;
 }
 
 header.main img {
@@ -219,14 +219,14 @@ div.mainNav ul li a {
   line-height: 90px;
   padding: 5px;
   font-size: 1em;
-  color: #744b01;
+  color: #fff;
   font-weight: bold;
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
 }
 
 div.biography nav {
-  background-color: #b9d3df;
+  background-color: #071e24;
 }
 
 div.biography nav,
@@ -246,7 +246,7 @@ div.biography ul li a {
   padding: 5px;
   margin: 0px 20px;
   font-size: 1em;
-  color: #744b01;
+  color: #fff;
   font-weight: bold;
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
@@ -259,7 +259,7 @@ ul li a::before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: #fff;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -285,7 +285,7 @@ section div {
 section div.katsina_central {
   box-shadow: 0px 40px 40px -20px rgba(0, 0, 0, 0.25);
   color: #fff;
-  background: rgb(39, 161, 202);
+  background: #1686ab;
   padding: 0px 40px;
   padding-bottom: 60px;
 }
@@ -590,7 +590,7 @@ div.katsina_central a:hover {
 footer {
   text-align: center;
   color: white;
-  background-color: #010822;
+  background-color: #071e24;
   padding: 1.5em;
   position: relative;
 }
@@ -615,7 +615,6 @@ footer span {
   color: #dc3545;
 }
 .footer-bottom {
-  background-color: #010822;
   letter-spacing: 2px;
   font-size: 1.5em !important ;
 }
