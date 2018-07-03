@@ -30,6 +30,7 @@ fetch('https://the411ng-backend.herokuapp.com/graphql', {
 
 			var link = document.createElement("a");
 			link.setAttribute("href", newsItem.link);
+			link.setAttribute("target", "_blank");
 			link.append(newsItem.title);
 
 			var blankSpace = document.createElement("span")
