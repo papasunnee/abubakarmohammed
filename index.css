@@ -157,8 +157,8 @@ a {
   border: 2px solid #fff;
 }
 
-.scroll-text {
-  color: #000;
+.scroll-text a {
+  color: #071e24 !important;
 }
 header.main {
   background-image: url("images/web-header.jpg");
@@ -325,6 +325,9 @@ section div.katsina_central ul li {
 section div.katsina_central h1 {
   font-family: "Josefin Sans", sans-serif;
   margin-top: 100px;
+}
+section div.katsina_central p {
+  font-size: 1.5em;
 }
 section div.navigation {
   z-index: 10;
