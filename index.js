@@ -23,8 +23,12 @@ function changeImage(e){
 function removeImage(e){
 	e.target.src= 'images/ameclogo.png'
 }
+function regInfo(e){
+	alert('Registration Begins July 30 2018') ;
+}
 
 tab1.addEventListener('click', slideLeft);
 tab2.addEventListener('click', slideRight);
 amec.addEventListener('mouseover', changeImage);
 amec.addEventListener('mouseout', removeImage);
+amec.addEventListener('click', regInfo);
