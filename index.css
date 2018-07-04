@@ -641,6 +641,10 @@ footer a:hover {
 footer span {
   color: #dc3545;
 }
+footer a span {
+  font-weight: 900 !important;
+  font-size: 1.2em !important;
+}
 .footer-bottom {
   letter-spacing: 2px;
   font-size: 1.5em !important ;
