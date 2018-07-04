@@ -3,6 +3,7 @@ var tab1 = document.querySelector('.tab1');
 var tab2 = document.querySelector('.tab2');
 var panel1 = document.querySelector('.tab_panel1');
 var panel2 = document.querySelector('.tab_panel2');
+var amec = document.querySelector('#amec');
 
 function slideLeft(e) {
 	tab2.classList.remove('active');
@@ -16,5 +17,14 @@ function slideRight(e) {
 	reel.style.transform = "translateX(-50%)";
 }
 
+function changeImage(e){
+	e.target.src= 'images/ameclogo2.png'
+}
+function removeImage(e){
+	e.target.src= 'images/ameclogo.png'
+}
+
 tab1.addEventListener('click', slideLeft);
 tab2.addEventListener('click', slideRight);
+amec.addEventListener('mouseover', changeImage);
+amec.addEventListener('mouseout', removeImage);
