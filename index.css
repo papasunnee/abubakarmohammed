@@ -695,11 +695,13 @@ footer a span {
 .achievement,
 .work-experience,
 .family,
-.education {
+.education,
+.employment-history {
   display: flex;
   flex-wrap: wrap;
 }
 .achievement div,
+.employment-history div,
 .work-experience div,
 .family div,
 .education div {
@@ -709,13 +711,65 @@ footer a span {
 }
 
 .achievement div img,
+.employment-history div img,
 .work-experience div img,
 .family div img,
 .education div img {
   border: 3px solid #b2b2b2;
   padding: 10px;
 }
+
+.achievement ul,
+.employment-history ul,
+.work-experience ul,
+.family ul,
+.education ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.achievement ul li,
+.employment-history ul li,
+.work-experience ul li,
+.family ul li,
+.education ul li {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid #b2b2b2;
+  border-left: 5px solid #b2b2b2;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: background-color ease-in 150ms;
+  margin-bottom: 1px;
+  border-radius: 2px 0px 0px 2px;
+  background-color: rgb(221, 237, 247);
+}
+
+.achievement ul li:hover,
+.employment-history ul li:hover,
+.work-experience ul li:hover,
+.family ul li:hover,
+.education ul li:hover {
+  background-color: #f1f6f9;
+}
+
+.achievement ul li::before,
+.employment-history ul li::before,
+.work-experience ul li::before,
+.family ul li::before,
+.education ul li::before {
+  content: " * ";
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+dd {
+  margin-bottom: 20px;
+}
+
 .achievement div img:hover,
+.employment-history div img:hover,
 .work-experience div img:hover,
 .family div img:hover,
 .education div img:hover {
