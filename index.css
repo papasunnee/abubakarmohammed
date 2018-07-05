@@ -722,6 +722,15 @@ footer a span {
   border: 3px solid green;
 }
 
+.education span {
+  display: block;
+}
+.education span::before {
+  content: "* ";
+  font-weight: bold;
+  color: rgb(45, 142, 233);
+}
+
 /* events */
 
 .timeline {
