@@ -741,7 +741,7 @@ footer a span {
   border-left: 5px solid #b2b2b2;
   padding: 10px;
   box-sizing: border-box;
-  transition: background-color ease-in 150ms;
+  transition: background-color ease-in 150ms, border-left ease-in 250ms;
   margin-bottom: 1px;
   border-radius: 2px 0px 0px 2px;
   background-color: rgb(221, 237, 247);
@@ -753,6 +753,7 @@ footer a span {
 .family ul li:hover,
 .education ul li:hover {
   background-color: #f1f6f9;
+  border-left: 8px solid #b2b2b2;
 }
 
 .achievement ul li::before,
@@ -1096,9 +1097,7 @@ div.page::after {
   }
   header.main h1 {
     left: 0px;
-    margin-top: 300px;
     font-size: 3em;
-    color: rgb(39, 161, 202);
     outline: antiquewhite;
     text-align: left;
     line-height: 60px;
@@ -1139,5 +1138,18 @@ div.page::after {
     position: absolute;
     line-height: 0px;
     margin-top: 85px;
+  }
+
+  header.main .freedom h1 {
+    font-size: 3em;
+    margin-top: 10px;
+    color: #fff;
+  }
+
+  header.main .freedom span {
+    position: absolute;
+    left: -5px;
+    color: red;
+    font-weight: bolder;
   }
 }
